@@ -159,16 +159,18 @@ h6 {
 
 /* Footer */
 
+footer {
+  padding-bottom: 40px;
+}
+
 footer p {
   text-align: center;
+  margin-left: -30px;
 }
 
 footer li {
   list-style: none;
-}
-
-.move-left {
-  margin-left: -5px;
+  text-align: left;
 }
 
 .insta {
@@ -204,4 +206,9 @@ footer li {
 
 .space {
   padding-bottom: 5px;
+}
+
+a {
+  color: #3C74A5;
+  cursor: auto;
 }
