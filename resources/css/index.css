@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #3C74A5;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p{
+  padding: 0 20px;
+  margin: 0;
+  font-size: 20px;
+  color: red;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://previews.123rf.com/images/woottigon/woottigon1507/woottigon150700081/43074127-Work-space-for-photographer-designer-or-hipster-style-Have-a-laptop-film-camera-film-speaker-glasses-Stock-Photo.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 760px;
+  min-height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
