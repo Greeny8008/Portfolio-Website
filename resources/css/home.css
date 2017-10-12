@@ -160,7 +160,7 @@ h6 {
 /* Footer */
 
 footer {
-  padding-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 footer p {
@@ -170,45 +170,29 @@ footer p {
 
 footer li {
   list-style: none;
-  text-align: left;
 }
 
-.insta {
-  height: 25px;
-  width: 65px;
-
+footer ul {
+position: absolute;
 }
 
-.fb {
-  height: 20px;
-  width: 65px;
-}
-
-.yahoo {
-  height: 20px;
-  width: 65px;
-}
-
-
-.footer-heading {
-  margin-top: 20px;
-}
-
-
-.footer-code {
-  margin-top: -60px;
-}
-
-
-.footer-connect {
-  margin-top: -20px;
-}
-
-.space {
+.footer-header {
   padding-bottom: 5px;
+  position: relative;
+  top: 2px;
 }
 
 a {
   color: #3C74A5;
   cursor: auto;
+}
+
+.page-bottom {
+  padding-bottom: 50px;
+}
+
+.copyright-tag {
+  position: relative;
+  text-align: right;
+  top:170px;
 }
