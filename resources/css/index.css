@@ -7,10 +7,6 @@ body {
 
 }
 
-a{
-
-}
-
 header {
   padding: 2rem 0;
 }
@@ -43,7 +39,7 @@ header a{
 }
 
 .container .link:hover{
-  color: #49C1D6;
+  color: #FFBDB1;
   text-decoration: underline;
   transition: all 500ms ease-in;
 }

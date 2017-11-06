@@ -54,11 +54,80 @@ header nav {
   justify-content: flex-end;
 }
 
-header p{
-  padding: 0 20px;
+header a{
+  padding: 0 2rem;
   margin: 0;
-  font-size: 20px;
-  color: red;
+  font-size: 2rem;
+  color: #3F7AAD;
+}
+
+.container .link:hover{
+  color: #FFBDB1;
+  text-decoration: underline;
+  transition: all 500ms ease-in;
+}
+
+/*Drop Down Menu*/
+
+
+.drop-down nav {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding-right: 1rem;
+  line-height: 2.2;
+  font-weight: bold;
+  color: white;
+  left: -15rem;
+  top: 20rem;
+  background-color: #303030;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+}
+
+.drop-down a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.drop-down img {
+  height: 3rem;
+  width: 5rem;
+  padding-left: 2rem;
+}
+
+.drop-down nav:hover {
+  left: 0;
+  transition: left 400ms ease-in;
+}
+
+.drop-down a:hover {
+  color: #FFBDB1;
+  transition: all 300ms ease-in;
+}
+
+#drop-header {
+  list-style: none;
+  text-align: center;
+  background-color: #303030;
+  border: none;
+}
+
+.drop-down ul {
+background-color: #303030;
+list-style: none;
+}
+
+.drop-down li {
+background-color: #575757;
+border-top: 0.5px solid black;
+border-bottom: 0.5px solid black;
+padding: 1rem;
+margin-left: -4rem;
 }
 
 /*Banner Section*/
@@ -109,10 +178,12 @@ h5 {
   font-size: 30px;
   margin-top: 30px;
   color: #3C74A5;
+  padding-left: 1rem;
 }
 
 .content-text {
   font-size: 15px;
+  padding-left: 1rem;
 }
 
 /*Portfolio Section*/
@@ -146,6 +217,11 @@ h6 {
   margin-top: 35px;
 }
 
+#jobs p {
+  padding-left: 1rem;
+}
+
+
 /*Education Section*/
 
 .education {
@@ -154,8 +230,14 @@ h6 {
   width: 100%;
   margin-top: 80px;
   margin-bottom: 80px;
-  padding: 70px 70px;
+  padding: 7rem 4rem;
 }
+
+.education .col-sm-6 p {
+  padding-left: 1rem;
+}
+
+
 
 /* Footer */
 
